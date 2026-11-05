@@ -1,9 +1,0 @@
-#!/bin/bash
-password="secpass"
-echo "Length: ${#password}"
-
-if [[ ${#password} -lt 8 ]]; then
-	echo "Password is too short"
-	exit 1
-fi
-
